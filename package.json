@@ -1,0 +1,31 @@
+{
+  "name": "docker_nodejs",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "nodemon": "2.0.20",
+    "body-parser": "1.20.1",
+    "debug": "4.3.4",
+    "cookie-parser": "1.4.6",
+    "http-errors": "2.0.0",
+    "pg-promise": "11.0.2",
+    "bcrypt": "5.1.0",
+    "js-sha256": "0.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aan-maryanto/nodejs_docker.git"
+  },
+  "author": "Aan Maryanto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aan-maryanto/nodejs_docker/issues"
+  },
+  "homepage": "https://github.com/aan-maryanto/nodejs_docker#readme"
+}
